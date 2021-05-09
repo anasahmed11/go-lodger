@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "b940cfa8-0b51-4d9b-a7a6-dfa6fa205dc7",
+		"name": "go-lodger",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "rooms",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/rooms",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"rooms"
+					],
+					"query": [
+						{
+							"key": "room_name",
+							"value": "HALF BOARD",
+							"disabled": true
+						},
+						{
+							"key": "room_code",
+							"value": "HF-BD",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
